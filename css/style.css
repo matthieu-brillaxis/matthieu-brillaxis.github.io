@@ -1,0 +1,29 @@
+.home-center {
+    text-align: center;
+}
+
+.flex-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin:auto!important;
+}
+
+.flex-gallery img {
+    border: 0px!important;
+    margin: 5px 10px!important;
+}
+
+.flex-gallery > img {
+    flex: 1;
+    width: 40%;
+}
+
+.flex-gallery > a {
+    border: 0px!important;
+    width: 40%;
+    margin: 5px 10px!important;
+    display:inline-block!important;
+}
