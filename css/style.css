@@ -27,3 +27,7 @@
     margin: 5px 10px!important;
     display:inline-block!important;
 }
+
+img {
+    border:none!important;
+}
